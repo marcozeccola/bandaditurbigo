@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+hr {
+    width: 25%;
+}
+
+a.active {
+    color: #ea454b;
+
+}
+
+/*===========
+navbar
+===========*/
+.menu-header{
+    width:100%;
+
+    background-image: url('../img/pompeiana2019/pompeiana84.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+    background-attachment: fixed;
+}
+nav {
+    position: relative;
+    z-index: 500;
+    background: transparent;
+    box-shadow: none;
+
+}
+
+.nav-wrapper {
+    padding: 0 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.side-nav {
+    z-index: 2000px;
+    
+}
+/*===========
+about
+===========*/
+#about {
+    position: relative;
+    top: 95vh;
+}
+
+.text_container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text_container p {
+    font-size: 100%;
+}
+
+/*===========
+parallax1
+===========*/
+.parallax-container {
+    position: relative;
+    top: 120vh;
+    height: 300px;
+
+}
+
+.parallax img {
+    background-size: cover;
+}
+
+/*===========
+upcoming-events
+===========*/
+.appuntamenti-title{
+    color: #ea454b!important;
+}
+#upcoming-events {
+    position: relative;
+    top: 120vh;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+/*===========
+organico
+===========*/
+
+#organico-row {
+    position: relative;
+    top: 120vh;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+/*===========
+school
+===========*/
+#school {
+    position: relative;
+    top: 120vh;
+    width: 90%;
+    margin: 0 auto;
+
+}
+#gallery{
+    position: relative;
+    top: 120vh; 
+}
+/*===========
+where
+===========*/
+#where {
+    position: relative;
+    top: 120vh;
+}
+
+/*===========
+open
+===========*/
+#open {
+    position: relative;
+    top: 120vh;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: #004d40 !important;
+}
+
+/*===========
+footer
+===========*/
+.social-icons {
+    max-height: 25px;
+    max-width: 40px;
+}
+
+footer {
+    position: relative;
+    top: 120vh;
+    width: 100% !important;
+}
+ @media only screen and (min-width: 600px){
+    .halfimg{
+        width:50%;
+        height:auto;
+    }
+ }
